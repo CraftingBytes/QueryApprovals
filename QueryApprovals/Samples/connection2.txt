@@ -1,0 +1,1 @@
+Server=localhost;Database=TSQL2012;Trusted_Connection=true;
