@@ -44,6 +44,9 @@ namespace QueryApprovals
                     Arguments = $"{path1} {path2}"
                 };
                 Process.Start(startInfo);
+                string errMessage = "Error!  " + output1 + "~" + output2;
+                Console.WriteLine(errMessage);
+                throw new Exception(errMessage);
             }
         }
 
